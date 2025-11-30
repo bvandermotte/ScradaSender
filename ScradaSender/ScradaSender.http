@@ -1,0 +1,6 @@
+@ScradaSender_HostAddress = http://localhost:5053
+
+GET {{ScradaSender_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
