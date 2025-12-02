@@ -1,4 +1,4 @@
-﻿namespace ScradaSender.Options
+﻿namespace ScradaSender.Shared.Options
 {
     public class ScradaSettings
     {

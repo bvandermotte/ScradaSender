@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ScradaSender.Agents.Interfaces;
 
-namespace ScradaSender.Controllers
+namespace ScradaSender.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

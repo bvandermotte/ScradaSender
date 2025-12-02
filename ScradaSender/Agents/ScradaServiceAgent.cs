@@ -3,7 +3,7 @@ using System.Xml.Linq;
 using Microsoft.Extensions.Options;
 using ScradaSender.Agents.Interfaces;
 using ScradaSender.Agents.Models;
-using ScradaSender.Options;
+using ScradaSender.Shared.Options;
 
 namespace ScradaSender.Agents
 {
