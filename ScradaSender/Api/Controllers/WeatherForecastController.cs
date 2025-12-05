@@ -10,7 +10,7 @@ namespace ScradaSender.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await scradaAgent.CheckIfCompanyExist("0432106690"));
+            return Ok(await scradaAgent.CheckIfCompanyExistAsync<ScradaParticipant>("0432106690"));
         }
     }
 }

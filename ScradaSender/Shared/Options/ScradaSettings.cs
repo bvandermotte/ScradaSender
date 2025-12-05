@@ -8,5 +8,6 @@
         public string PeppolIdentifierTypeBE { get; set; }
         public string XApiKey { get; set; } 
         public string XPassword { get; set; }
+
     }
 }
